@@ -87,7 +87,7 @@ type QueueScanner struct {
 	wg       sync.WaitGroup
 
 	ctx *Ctx
-}
+} //hi
 
 func NewQueueScanner(threads int, scanFunc QueueScannerScanFunc) *QueueScanner {
 	t := &QueueScanner{
